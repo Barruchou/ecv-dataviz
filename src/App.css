@@ -2,17 +2,18 @@
   box-sizing: border-box;
 }
 
-.App {
-  text-align: center;
-  background-color: #ffffff;
+.app{
   padding: 2rem;
-  min-height: 100vh;
 }
 
-.Paper:not(:last-child){
-  margin-bottom: 2rem;
+h1{
+  font-size: 1.5rem;
 }
 
-.Chart{
+h2{
+  font-size: 1rem;
+}
+
+.chart{
   padding: 1rem;
 }

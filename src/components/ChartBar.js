@@ -36,7 +36,7 @@ function ChartBar(props) {
 
     return (
         <Paper elevation={3}>
-            <div className="Chart">
+            <div className="chart">
                 {props.isHorizontal ? (<HorizontalBar data={chartBar} options={chartOptions}/>) : (<Bar data={chartBar} options={chartOptions}/>)}
 
             </div>

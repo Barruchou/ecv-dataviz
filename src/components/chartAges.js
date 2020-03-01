@@ -1,6 +1,6 @@
 import React from 'react';
 import Paper from "@material-ui/core/Paper";
-import {Line, Scatter} from "react-chartjs-2";
+import {Line} from "react-chartjs-2";
 
 function Ages(props) {
     const agesData = {};
@@ -40,7 +40,7 @@ function Ages(props) {
 
     return (
         <Paper elevation={3}>
-            <div className="Chart">
+            <div className="chart">
                 <Line data={chartAges} options={chartOptions}/>
             </div>
         </Paper>
