@@ -21,7 +21,6 @@ function Gender(props) {
                 : genderData[gender] = 1
         }
     });
-    console.log(genderData);
     Object.entries(genderData).forEach(entry => {
         chartGender.datasets[0].data.push(entry[1]);
         chartGender.labels.push(entry[0]);
